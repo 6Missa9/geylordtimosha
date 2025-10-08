@@ -1,0 +1,31 @@
+body{
+ width: 1200px;
+ margin: auto;   
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.seacrh{
+    width: 427px;
+    border: none;
+    font-size: 16px;
+    background-color: #bebbcda2;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.ask-btn{
+    background-color: #33836E;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+}
