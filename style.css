@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
+body {
     width: 1200px;
     margin: auto;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
-.header{
+.header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,7 +17,7 @@ body{
 
 
 
-.askq{
+.askq {
     background-color: #33836e;
     border: none;
     border-radius: 10px;
@@ -26,13 +26,14 @@ body{
     font-size: 16px;
 }
 
-.phone-number{
+.phone-number {
+    display: block;
     font-weight: bold;
     font-size: 20px;
     display: black;
 }
 
-.search{
+.search {
     width: 427px;
     border: none;
     font-size: 16px;
@@ -40,119 +41,171 @@ body{
     border-radius: 10px;
     padding: 10px;
 }
-.contact-info{
-    display: grid;
+
+.contact-info {
     font-weight: 400;
     font-size: 14px;
     color: rgba(47, 43, 67, 0.5);
 }
 
-.bel{
+.bel {
     box-sizing: border-box;
     padding: 10px 20px;
     border: 1px solid rgba(47, 43, 67, 0.15);
     border-radius: 10px;
 }
 
-a{
+a {
     text-decoration: none;
     color: black;
 }
 
-.menu{
+.menu {
     text-align: justify;
     display: flex;
-    margin-top: 40px;
+    margin-top: 30px;
     gap: 30px;
     justify-content: space-between;
     align-items: center;
 }
 
-.text{
+.text {
     display: flex;
     gap: 10px;
-    color: gray ;
+    color: gray;
 }
 
-.title{
+.title {
     display: flex;
 }
-.title_t{
+
+.title_t {
     font-size: 38px;
     line-height: 52px;
 }
-.title_text{
+
+.title_text {
     font-size: 20px;
 }
 
-.block{
+.block {
     display: flex;
     gap: 30px;
 }
-.ask_b{
+
+.ask_b {
     color: white;
-    background-color:  #33836e;
+    background-color: #33836e;
     border-radius: 10px;
     border: none;
     font-size: 16px;
 }
 
-.ask_bb{
+.ask_bb {
     display: flex;
     gap: 30px;
 }
-.phone-num{
- font-weight: bold;
+
+.phone-num {
+    display: block;
+    font-weight: bold;
     font-size: 20px;
-    color:  #33836e;
-    text-decoration-line: underline; 
+    color: #33836e;
+    text-decoration-line: underline;
 }
 
-.container_title{
+.container_title {
     display: flex;
-    gap: 30px; 
+    gap: 30px;
 }
 
-.hellp{
+.hellp {
     font-size: 38px;
+    margin-top: 15px;
 }
-.text_help{
+
+.text_help {
     font-size: 20px;
 }
-.free{
+
+.free {
     font-size: 38px;
 }
-.free_ask{
+
+.free_ask {
     font-size: 20px;
 }
-.hottel{
+
+.hottel {
     font-size: 18px;
 }
-.num{
+
+.num {
     font-weight: bold;
     font-size: 22px;
 }
-.call{
+
+.call {
     color: #33836e;
     font-size: 18px;
 }
-.tel{
+
+.tel {
     padding: 10px 20px;
     border: 1px solid rgba(47, 43, 67, 0.15);
-    width: 220px;
+    width: 232px;
     height: 150px;
     border-radius: 20px;
-    display: grid;
 }
-.que{
+
+.que {
     padding: 10px 20px;
     width: 220px;
     height: 150px;
     border-radius: 20px;
-    display: grid;
 }
-.aboboba{
+
+.aboboba {
     display: flex;
+    gap: 15px;
 }
-.zvanite{
-    
+
+.zvanite {
+    margin-top: 45px;
+}
+
+
+.container_title {
+    margin-top: 15px;
+}
+
+
+.text_help {
+    margin-top: 10px;
+}
+
+.hottely {
+    font-size: 18px;
+}
+
+.telly {
+    padding: 10px 20px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    width: 518px;
+    height: 150px;
+    border-radius: 20px;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.telly-block {
+    display: flex;
+    gap: 20px;
+}
+
+.telly_1 {
+    display: block;
+
+}
