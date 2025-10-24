@@ -209,3 +209,33 @@ a {
     display: block;
 
 }
+
+.vubor2 {
+    font-size: 20px;
+}
+
+.vubor3 {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.vubor5 {
+    display: block;
+    color: #33836e;
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.vubor2 {
+    width: 580px;
+}
+
+.vubor {
+    display: flex;
+}
+
+.vubor1.1 {
+    display: block;
